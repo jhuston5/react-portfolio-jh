@@ -38,7 +38,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #d0e3cc;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -231,7 +231,9 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background-image: url('../src/AZ_Thanksgiving_Banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .experience-icon {
