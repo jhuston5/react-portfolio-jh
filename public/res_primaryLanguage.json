@@ -1,118 +1,95 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Ursula Lopez. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Code Fellows. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 I'm Joshua Huston. I came to Code Fellows after gaining exposure to technical products and teams through my work at Zillow. I currently work as an apprentice software engineer, data analyst, and an officer in the Army National Guard. My goal is to learn front-end development, then go on to learn Python in 401. In the future, I will work for Zillow as a Software Engineer and potentially transition into the Cyber Branch in the Army to help use my technical skills for cyber defense.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Salmon Cookies",
+      "startDate": "2021",
+      "description": "Website that displays store cookie sale data in a table.",
+      "images": [
+        "images/Salmon-Cookies-Chart.png"
+        
+      ],
+      "url": "https://jhuston5.github.io/cookie-stand/",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Coders Pursuit",
+      "startDate": "2021",
+      "description": "Final Project for Code Fellows 201. Takes user information, presents movie trivia questions with dynamic subject backgrounds, then returns a local storage leaderboard.",
+      "images": [
+        "images/Coders Pursuit User Info.png",
+        "images/Coders Pursuit Questions and Background Image.png"
+      ],
+      "url": "https://coders-pursuit.github.io/Movie-Trivia/",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Product Picker",
+      "startDate": "2021",
+      "description": "Product selector for marketing testing. Displays which products receive most clicks using a chart made with node.js",
+      "images": [
+        "images/Bus Mall Product + Chart.png"
+      ],
+      "url": "https://jhuston5.github.io/bus-mall/",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Zillow",
+      "title": "Apprentice Software Engineer",
+      "years": "09.2021-Present",
+      "mainTech": [
+        "Javascript"
+      ],
+      "technologies": [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "React",
+        "Bootstrap",
+        "REST API"
+      ]
+    },
+    {
+      "company": "Zillow",
+      "title": "Sourcing Vendor Specialist/Data Analyst",
+      "years": "01.2020-Present",
+      "mainTech": [
+        "SQL"
+      ],
+      "technologies": [
+        "SQL",
+        "Excel"
+      ]
+    }
+  ]
+}
